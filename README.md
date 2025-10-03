@@ -13,7 +13,7 @@ Server example of using **`@verikami/remark-deflist-revisited`** in Node.js.
 **[Remark Deflist Revisited][module]** is a **[Remark]** plugin. A wrapper
 around **`remark-deflist`** with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
-See also examples of **[Express.js]**, **[Astro]** and **[Cloudflare Worker]** implementations.
+See also examples of **[Express.js][+:express]**, **[Astro][+:astro]** and **[Cloudflare Worker][+:worker]** implementations.
 
 ## Interactive Start
 
@@ -209,10 +209,10 @@ This project is Open Source and available under the MIT License
 [Weronika Kami]: https://linkedin.com/in/verikami
 
 [module]: https://github.com/veriKami/remark-deflist-revisited
-[Simple]: https://github.com/veriKami/remark-deflist-revisited-simple
-[Express.js]: https://github.com/veriKami/remark-deflist-revisited-express
-[Astro]: https://github.com/veriKami/remark-deflist-revisited-astro
-[Cloudflare Worker]: https://github.com/veriKami/remark-deflist-revisited-worker
+[+:simple]: https://github.com/veriKami/remark-deflist-revisited-simple
+[+:express]: https://github.com/veriKami/remark-deflist-revisited-express
+[+:worker]: https://github.com/veriKami/remark-deflist-revisited-worker
+[+:astro]: https://github.com/veriKami/remark-deflist-revisited-astro
 
 [GH Badge]: https://img.shields.io/badge/GitHub-Repository-blue?logo=github
 [GH]: https://github.com/veriKami/remark-deflist-revisited
