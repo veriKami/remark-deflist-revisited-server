@@ -238,7 +238,7 @@ This project is Open Source and available under the MIT License
 [StackBlitz]: https://stackblitz.com/github/veriKami/remark-deflist-revisited-server
 
 [Codesandbox Badge]: https://codesandbox.io/static/img/play-codesandbox.svg
-[Codesandbox]: https://codesandbox.io/p/github/veriKami/remark-deflist-revisited-server/main?embed=1
+[Codesandbox]: https://codesandbox.io/p/github/veriKami/remark-deflist-revisited-server
 
 [Codespaces Badge]: https://github.com/codespaces/badge.svg
 [Codespaces]: https://codespaces.new/veriKami/remark-deflist-revisited-server?quickstart=1
