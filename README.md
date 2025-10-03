@@ -30,11 +30,11 @@ See also examples of **[Express.js][+:express]**, **[Astro][+:astro]** and **[Cl
 - Pure Node.js with minimal dependencies
 - Interactive web server with live markdown editor
 - Modular architecture with reusable functions
-- File output capability
-- External CSS styling
 - Comprehensive test suite with node:test
 - Error handling and input validation
 - Multiple usage examples
+- File output capability
+- External CSS styling
 
 ## Requirements
 
