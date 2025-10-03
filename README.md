@@ -13,7 +13,13 @@ around **`remark-deflist`** with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
 See also examples of **[Express.js]** and **[Cloudflare Worker]** implementations.
 
-## ✨ Features
+## Interactive Start
+
+[![Codeflow][Codeflow Badge]][Codeflow]
+[![StackBlitz][StackBlitz Badge]][StackBlitz]
+[![Codesandbox][Codesandbox Badge]][Codesandbox]
+
+## Features
 
 - Pure Node.js with minimal dependencies
 - Interactive web server with live markdown editor
@@ -24,12 +30,12 @@ See also examples of **[Express.js]** and **[Cloudflare Worker]** implementation
 - Error handling and input validation
 - Multiple usage examples
 
-## 🔧 Requirements
+## Requirements
 
 - Node.js 20 or higher
 - npm, pnpm or yarn
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Install dependencies
@@ -45,7 +51,7 @@ npm run dev
 npm test
 ```
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Interactive Web Server
 
@@ -63,7 +69,7 @@ npm start
 - `POST /process` - Process markdown from form submission
 - `GET /generate` - Generate static output.html file
 
-The web interface provides:
+**The web interface provides:**
 
 - Live markdown editor with syntax support
 - Real-time HTML preview
@@ -94,7 +100,7 @@ await generateFromFile('input.md', 'output.html', 'Document Title');
 const result = await generateFromString(markdown, 'Page Title');
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -120,7 +126,7 @@ project/
 - **`test.js`** - Test suite using Node.js native test runner
 - **`examples/*.md`** - Sample markdown files with definition lists
 
-## 📦 Output
+## Output
 
 ### Web Server Mode (`npm start`)
 
@@ -140,7 +146,7 @@ Visit `http://localhost:3000/generate` to create `output.html` with:
 - Definition lists support
 - Embedded CSS for portability
 
-## 🧪 Testing
+## Testing
 
 The project includes a comprehensive test suite using Node.js native test runner:
 
@@ -163,7 +169,7 @@ npm test
 # fail 0
 ```
 
-## 🎯 Definition List Syntax
+## Definition List Syntax
 
 This plugin supports the standard definition list markdown syntax:
 
@@ -188,7 +194,7 @@ Another Term
 </dl>
 ```
 
-## 📄 License
+## License
 
 This project is Open Source and available under the MIT License.  
 2025 © MIT °// [veriKami] °// [Weronika Kami]
@@ -217,3 +223,12 @@ This project is Open Source and available under the MIT License.
 [Socket]: https://socket.dev/npm/package/@verikami/remark-deflist-revisited
 
 [Remark]: https://remark.js.org
+
+[Codeflow Badge]: https://developer.stackblitz.com/img/open_in_codeflow.svg
+[Codeflow]: https:///pr.new/veriKami/remark-deflist-revisited-server
+
+[StackBlitz Badge]: https://developer.stackblitz.com/img/open_in_stackblitz.svg
+[StackBlitz]: https://stackblitz.com/github/veriKami/remark-deflist-revisited-server
+
+[Codesandbox Badge]: https://codesandbox.io/static/img/play-codesandbox.svg
+[Codesandbox]: https://codesandbox.io/p/github/veriKami/remark-deflist-revisited-server/main?embed=1
