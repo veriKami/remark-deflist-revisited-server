@@ -1,23 +1,29 @@
 # Remark Deflist Revisited °// Server Example
 
+<!--
 [![GH][GH Badge]][GH]
 [![NPM][NPM Badge]][NPM]
 [![JSR][JSR Badge]][JSR]
 [![Downloads][Downloads Badge]][Downloads]
 [![Socket][Socket Badge]][Socket]
+-->
 
 Server example of using **`@verikami/remark-deflist-revisited`** in Node.js.
 
 **[Remark Deflist Revisited][module]** is a **[Remark]** plugin. A wrapper
 around **`remark-deflist`** with improved support for nested definition lists.
 It preserves all the original functionality and performs additional processing.
-See also examples of **[Express.js]** and **[Cloudflare Worker]** implementations.
+See also examples of **[Express.js]**, **[Astro]** and **[Cloudflare Worker]** implementations.
 
 ## Interactive Start
 
 [![Codeflow][Codeflow Badge]][Codeflow]
 [![StackBlitz][StackBlitz Badge]][StackBlitz]
 [![Codesandbox][Codesandbox Badge]][Codesandbox]
+
+<!--
+[![Codespaces][Codespaces Badge]][Codespaces]
+-->
 
 ## Features
 
@@ -196,7 +202,7 @@ Another Term
 
 ## License
 
-This project is Open Source and available under the MIT License.  
+This project is Open Source and available under the MIT License  
 2025 © MIT °// [veriKami] °// [Weronika Kami]
 
 [veriKami]: https://verikami.com
@@ -205,6 +211,7 @@ This project is Open Source and available under the MIT License.
 [module]: https://github.com/veriKami/remark-deflist-revisited
 [Simple]: https://github.com/veriKami/remark-deflist-revisited-simple
 [Express.js]: https://github.com/veriKami/remark-deflist-revisited-express
+[Astro]: https://github.com/veriKami/remark-deflist-revisited-astro
 [Cloudflare Worker]: https://github.com/veriKami/remark-deflist-revisited-worker
 
 [GH Badge]: https://img.shields.io/badge/GitHub-Repository-blue?logo=github
@@ -232,3 +239,7 @@ This project is Open Source and available under the MIT License.
 
 [Codesandbox Badge]: https://codesandbox.io/static/img/play-codesandbox.svg
 [Codesandbox]: https://codesandbox.io/p/github/veriKami/remark-deflist-revisited-server/main?embed=1
+
+[Codespaces Badge]: https://github.com/codespaces/badge.svg
+[Codespaces]: https://codespaces.new/veriKami/remark-deflist-revisited-server?quickstart=1
+
