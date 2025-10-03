@@ -44,17 +44,17 @@ See also examples of **[Express.js][+:express]**, **[Astro][+:astro]** and **[Cl
 ## Quick Start
 
 ```bash
-# Install dependencies
-npm install
+## Install dependencies
+ツ npm install
 
-# Start interactive web server (opens at http://localhost:3000)
-npm start
+## Start interactive web server
+ツ npm start
 
-# Start server with auto-reload on file changes
-npm run dev
+## Start server with auto-reload on file changes
+ツ npm run dev
 
-# Run comprehensive test suite
-npm test
+## Run comprehensive test suite
+ツ npm test
 ```
 
 ## Usage Examples
@@ -64,9 +64,9 @@ npm test
 Start the server and open your browser:
 
 ```bash
-npm start
+ツ npm start
 
-# Visit http://localhost:3000
+## Visit http://localhost:3000
 ```
 
 **Available routes:**
@@ -89,7 +89,8 @@ import { processMarkdown } from './lib/processor.js';
 import { createHTMLPage } from './lib/template.js';
 import { generateFromFile, generateFromString } from './lib/generator.js';
 
-// Process markdown string
+//: Process markdown string
+//: -------------------------------
 const markdown = `
 Term
 : Definition 1
@@ -99,10 +100,12 @@ Term
 const html = await processMarkdown(markdown);
 const page = createHTMLPage(html, 'My Page Title');
 
-// Generate from file
+//: Generate from file
+//: -------------------------------
 await generateFromFile('input.md', 'output.html', 'Document Title');
 
-// Generate from string
+//: Generate from string
+//: -------------------------------
 const result = await generateFromString(markdown, 'Page Title');
 ```
 
@@ -157,7 +160,7 @@ Visit `http://localhost:3000/generate` to create `output.html` with:
 The project includes a comprehensive test suite using Node.js native test runner:
 
 ```bash
-npm test
+ツ npm test
 ```
 
 **Test Coverage:**
