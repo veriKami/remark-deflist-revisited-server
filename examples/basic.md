@@ -1,4 +1,4 @@
-# Remark Deflist Revisited °// Simple Example
+# Remark Deflist Revisited °// Server Example
 
 Node.js
 : JavaScript runtime
